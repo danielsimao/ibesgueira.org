@@ -1,0 +1,38 @@
+.social-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+
+    &--white {
+      color: #ffffff;
+    }
+
+    &--black {
+      color: #18191f;
+    }
+
+    > span {
+      width: 100%;
+      display: flex;
+
+      > svg {
+        width: 1rem;
+        height: 1rem;
+      }
+
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
+    }
+  }
+}

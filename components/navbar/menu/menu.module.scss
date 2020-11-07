@@ -1,0 +1,16 @@
+.menu {
+  border: none;
+  background-color: transparent;
+
+  &--black {
+    > li {
+      color: #18191f;
+    }
+  }
+
+  &--vertical {
+    > li {
+      padding: 0 !important;
+    }
+  }
+}

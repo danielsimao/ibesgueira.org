@@ -1,0 +1,41 @@
+@import '../styles/local-variables.scss';
+
+.location-hero {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+
+    &__headline {
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 54px;
+      font-size: 18px;
+      line-height: 32px;
+      color: #18191f;
+    }
+
+    &__description {
+      font-size: 18px;
+      line-height: 32px;
+      color: #18191f;
+    }
+  }
+
+  &__image {
+    background-image: url('../../public/assets/location-hero.jpg');
+
+    width: 100%;
+    height: 400px;
+
+    background-position: 50% 40%;
+    background-size: cover;
+
+    border-radius: 8px;
+  }
+}

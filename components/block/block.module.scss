@@ -1,0 +1,17 @@
+.block {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-weight: 500;
+  overflow: hidden;
+  position: relative;
+
+  &--centered {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}

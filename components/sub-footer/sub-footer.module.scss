@@ -1,0 +1,25 @@
+@import '../../styles/local-variables.scss';
+
+.sub-footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+
+  background-color: #0b0d17;
+  border-color: #0b0d17;
+  &__inner {
+    max-width: var(--sub-footer-max-width);
+    padding: var(--sub-footer-inner-padding);
+
+    width: 100%;
+    height: 100%;
+
+    color: #d9dbe1;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 24px;
+
+    align-items: center;
+    display: flex;
+  }
+}

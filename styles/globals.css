@@ -1,0 +1,159 @@
+@import '~antd/dist/antd.css';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Manrope, sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  color: #000000;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #000000;
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  color: #000000;
+}
+
+h4 {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 40px;
+  color: #000000;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+h6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.subtitle-1 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.subtitle-2 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.lead-1 {
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.lead-2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.body-1 {
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.body-2 {
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.l-label {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.m-label {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.s-label {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0b0d17;
+}
+
+.capitalised {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.badge-label {
+  font-family: Nanum Pen;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+:root {
+  --header-height: 80px;
+  --header-inner-padding: 0 40px;
+  --header-max-width: 1200px;
+
+  --footer-height: 80px;
+  --footer-inner-padding: 0 40px;
+  --footer-max-width: 1200px;
+
+  --sub-footer-height: 80px;
+  --sub-footer-inner-padding: 0 60px;
+  --subfooter-max-width: 1000px;
+
+  --body-max-width: 1200px;
+
+  /* 🎨 COLORS */
+  --primary-lighter-color: #448fe4;
+  --primary-light-color: #1c6bc4;
+  --primary-color: #134987;
+  --primary-dark-color: #114178;
+  --primary-darker-color: #0f3a6b;
+  --primary-extra-darker-color: #0d335e;
+
+  --dark-color: #0b0d17;
+}

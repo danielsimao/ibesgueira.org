@@ -1,0 +1,95 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "root": true,
+  "extends": [
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "react-hooks",
+    "prettier"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".ts",
+          ".tsx",
+          ".scss"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "off",
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "no-unused-expressions": "off",
+    "@typescript-eslint/no-unused-expressions": "error",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "react/require-default-props": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/no-array-index-key": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-wrap-multilines": "off",
+    "react/jsx-filename-extension": [
+      "warn",
+      {
+        "extensions": [
+          ".tsx"
+        ]
+      }
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "jsx-a11y/anchor-is-valid": "off",
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ]
+  },
+  "ignorePatterns": [
+    "node_modules",
+    "public"
+  ]
+}

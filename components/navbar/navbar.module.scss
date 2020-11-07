@@ -1,0 +1,66 @@
+@import '../../styles/local-variables.scss';
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  &__left,
+  &__right,
+  &__center {
+    align-items: center;
+  }
+
+  &__left,
+  &__right {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__center {
+    width: 100%;
+    display: none;
+
+    margin-left: 32px;
+  }
+
+  &__social-links {
+    display: none !important;
+  }
+}
+
+.navbar-drawer-menu {
+  &__follow-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__social-links {
+      margin-left: -12px;
+      justify-content: flex-start;
+    }
+  }
+}
+
+.navbar-drawer-btn {
+  display: block;
+}
+
+@include tablet-desktop {
+  .navbar {
+    &__center {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    &__social-links {
+      display: flex !important;
+    }
+  }
+
+  .navbar-drawer-btn {
+    display: none;
+  }
+}
