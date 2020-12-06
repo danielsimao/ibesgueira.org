@@ -27,3 +27,77 @@
     @content;
   }
 }
+
+@mixin subtitle-1 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #000000;
+}
+
+@mixin subtitle-2 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+@mixin lead-1 {
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+}
+
+@mixin lead-2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+@mixin body-1 {
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+
+@mixin body-2 {
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+@mixin l-label {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+
+@mixin m-label {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+@mixin s-label {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0b0d17;
+}
+
+@mixin capitalised {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+@mixin badge-label {
+  font-family: Nanum Pen;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}

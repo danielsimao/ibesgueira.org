@@ -32,6 +32,8 @@
   align-items: center;
 
   &__content {
+    max-width: 500px;
+    text-align: center;
     @media (max-width: 350px) {
       &__text {
         font-size: 42px;
@@ -48,9 +50,15 @@
 
     &__text {
       font-weight: 800;
-      max-width: 90%;
       color: #ffffff;
       text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+      margin-bottom: 8px;
+    }
+    &__sub-text {
+      @include lead-1;
+      color: #ffffff;
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+      margin-bottom: 34px;
     }
 
     &__know-more-btn:global(.ant-btn-round):global(.ant-btn-lg) {
@@ -70,9 +78,7 @@
 @include tablet-desktop {
   .hero {
     &__content {
-      &__text {
-        max-width: 500px;
-      }
+      text-align: start;
     }
   }
 }

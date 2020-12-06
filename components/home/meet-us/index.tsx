@@ -46,9 +46,9 @@ function MeetUs(): JSX.Element {
       </div>
       <div className={styles['meet-us__content']}>
         <div className={styles['meet-us__content__header']}>
-          <h2 className={styles['meet-us__content__header__headline']}>
+          <h3 className={styles['meet-us__content__header__headline']}>
             ✉️ Um convite <Highlight>para si</Highlight>
-          </h2>
+          </h3>
           <p className={styles['meet-us__content__header__description']}>
             Cerca de 50 milhões de crentes baptistas, dispersos pelo mundo,
             estão empenhados em ser “Sal da Terra e Luz do mundo” (Mateus
@@ -59,9 +59,6 @@ function MeetUs(): JSX.Element {
             realidade e eficácia. A entrada (e saída) nos locais de culto das
             Igrejas Baptistas é livre! <em>Vinde e Vêde</em>.
           </p>
-        </div>
-
-        <div>
           <Button
             type="primary"
             size="large"

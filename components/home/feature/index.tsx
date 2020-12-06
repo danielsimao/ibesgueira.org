@@ -21,9 +21,9 @@ function Feature(): JSX.Element {
         <ul className={styles.feature__list}>
           <li className={styles.feature__list__details}>
             <span className={styles.feature__list__details__step}>1</span>
-            <div className={styles.feature__list__details__headline}>
+            <h5 className={styles.feature__list__details__headline}>
               🖤 Você é um pecador
-            </div>
+            </h5>
             <div className={styles.feature__list__details__description}>
               <p>
                 “Porque todos pecaram e destituídos da glória de Deus”
@@ -38,9 +38,9 @@ function Feature(): JSX.Element {
           <li className={styles.feature__list__details}>
             <span className={styles.feature__list__details__step}>2</span>
 
-            <div className={styles.feature__list__details__headline}>
+            <h5 className={styles.feature__list__details__headline}>
               ⚰️ O salário do pecado é a morte
-            </div>
+            </h5>
             <div className={styles.feature__list__details__description}>
               <p>
                 “Porque o salário do pecado é a morte, mas o dom gratuito de
@@ -51,9 +51,9 @@ function Feature(): JSX.Element {
           </li>
           <li className={styles.feature__list__details}>
             <span className={styles.feature__list__details__step}>3</span>
-            <div className={styles.feature__list__details__headline}>
+            <h5 className={styles.feature__list__details__headline}>
               ✞ Jesus morreu pelos seus pecados
-            </div>
+            </h5>
             <div className={styles.feature__list__details__description}>
               <p>
                 “Mas Deus prova o seu amor para conosco, em que Cristo morreu
@@ -64,9 +64,9 @@ function Feature(): JSX.Element {
           </li>
           <li className={styles.feature__list__details}>
             <span className={styles.feature__list__details__step}>4</span>
-            <div className={styles.feature__list__details__headline}>
+            <h5 className={styles.feature__list__details__headline}>
               🙏 Arrependa-se dos seus pecados
-            </div>
+            </h5>
             <div className={styles.feature__list__details__description}>
               <p>
                 “Não, vos digo; antes, se não vos arrependerdes, todos de igual
@@ -82,9 +82,9 @@ function Feature(): JSX.Element {
           </li>
           <li className={styles.feature__list__details}>
             <span className={styles.feature__list__details__step}>5</span>
-            <div className={styles.feature__list__details__headline}>
+            <h5 className={styles.feature__list__details__headline}>
               ❤️ Receba o dom da vida eterna
-            </div>
+            </h5>
             <div className={styles.feature__list__details__description}>
               <p>
                 “Mas, a todos quantos o receberam, deu-lhes o poder de serem

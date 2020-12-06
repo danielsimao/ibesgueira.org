@@ -8,12 +8,12 @@ function Hero(): JSX.Element {
       <Block className={styles.hero} centered>
         <div className={styles.hero__content}>
           <h1 className={styles.hero__content__text}>
-            Igreja Batista de Esgueira
+            Igreja Baptista de Esgueira
           </h1>
-          {/* <div className={styles['hero__content__sub-text']}>
+          <p className={styles['hero__content__sub-text']}>
             Uma igreja unida no Salvador, ligada como família e unânime em
-            serviço
-          </div> */}
+            serviço.
+          </p>
           <Button
             className={styles['hero__content__know-more-btn']}
             shape="round"
