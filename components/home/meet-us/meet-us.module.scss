@@ -1,9 +1,6 @@
 @import '../styles/local-variables.scss';
 
 .meet-us {
-  height: 1200px;
-  width: 100%;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,7 +9,7 @@
   z-index: 1;
 
   &__gallery {
-    width: 130vw;
+    width: 150%;
     height: 40%;
 
     display: flex;
@@ -39,17 +36,19 @@
     width: 100%;
     height: 55%;
 
-    &__header {
-      &__headline {
-        color: #18191f;
-        margin-bottom: 32px;
-      }
+    margin-bottom: 40px;
 
-      &__description {
-        font-size: 18px;
-        line-height: 32px;
-        color: #18191f;
-        font-weight: 300;
+    &__headline {
+      color: #18191f;
+      margin-bottom: 32px;
+    }
+
+    &__description {
+      @include lead-1;
+      color: #18191f;
+
+      &:last-of-type {
+        margin-bottom: 32px;
       }
     }
   }
@@ -57,19 +56,19 @@
 
 @include tablet-desktop {
   .meet-us {
-    height: 800px;
-
     justify-content: space-between;
     flex-direction: row;
 
+    align-items: center;
+
     &__gallery {
       width: 50%;
-      height: 100%;
+      height: 600px;
     }
 
     &__content {
       width: 45%;
-      height: 60%;
+      margin-bottom: 0px;
     }
   }
 }

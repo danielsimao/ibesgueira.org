@@ -1,17 +1,29 @@
 .block {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  font-weight: 500;
-  overflow: hidden;
-  position: relative;
+  width: 100%;
+  padding-top: var(--block--padding-top);
+  padding-bottom: var(--block--padding-bottom);
 
-  &--centered {
+  &--paddless {
+    padding: 0;
+  }
+
+  &__inner {
+    overflow: hidden;
+    position: relative;
+
     max-width: 1200px;
-    margin: 0 auto;
+    width: 100%;
+
     padding-left: 40px;
     padding-right: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+
+    margin: 0 auto;
+
+    &--centered {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }

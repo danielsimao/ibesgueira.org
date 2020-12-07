@@ -1,2 +1,2 @@
-export * from './hero'
+export * from './visit'
 export * from './time'

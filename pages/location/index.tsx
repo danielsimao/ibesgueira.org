@@ -7,7 +7,7 @@ import {
   Navbar,
   SubFooter,
 } from '../../components'
-import { Hero, Time } from '../../components/location'
+import { Visit, Time } from '../../components/location'
 
 export default function Location(): JSX.Element {
   return (
@@ -21,7 +21,7 @@ export default function Location(): JSX.Element {
           <Navbar variant="white" />
         </Header>
         <Content>
-          <Hero />
+          <Visit />
           <Time />
         </Content>
         <Footer />

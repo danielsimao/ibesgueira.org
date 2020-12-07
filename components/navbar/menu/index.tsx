@@ -24,7 +24,7 @@ function Menu({ className, variant, mode }: MenuProps): JSX.Element {
         styles[`menu--${mode}`],
         className,
       )}
-      selectable={false}
+      selectedKeys={[router.pathname]}
       onClick={handleClick}
       mode={mode}
     >

@@ -1,0 +1,82 @@
+@import '../styles/local-variables.scss';
+
+.visit {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 48px;
+
+    &__headline {
+      color: #18191f;
+    }
+
+    &__description {
+      @include lead-1;
+      color: #18191f;
+    }
+  }
+
+  &__image {
+    background-image: url('../../../public/assets/location-hero.jpg');
+
+    width: 100%;
+    height: 300px;
+
+    background-position: 90% 40%;
+    background-size: cover;
+
+    border-radius: 8px;
+  }
+}
+
+@include tablet {
+  .visit {
+    &__content {
+      flex-direction: row;
+
+      margin-bottom: 48px;
+
+      &__headline {
+        width: 50%;
+      }
+
+      &__description {
+        width: 50%;
+      }
+    }
+
+    &__image {
+      height: 400px;
+      background-position: 50% 40%;
+    }
+  }
+}
+
+@include desktop {
+  .visit {
+    &__content {
+      flex-direction: row;
+
+      margin-bottom: 48px;
+
+      &__headline {
+        width: 50%;
+      }
+
+      &__description {
+        width: 50%;
+      }
+    }
+
+    &__image {
+      height: 600px;
+      background-position: 90% 40%;
+    }
+  }
+}

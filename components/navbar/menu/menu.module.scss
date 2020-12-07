@@ -2,15 +2,29 @@
   border: none;
   background-color: transparent;
 
-  &--black {
-    > li {
-      color: #18191f;
-    }
-  }
-
   &--vertical {
     > li {
       padding: 0 !important;
+    }
+  }
+
+  > :global(.ant-menu-item) {
+    color: #ffffff;
+
+    &:hover {
+      color: #ffffff !important;
+      border-bottom-color: #ffffff !important;
+    }
+  }
+
+  &--black {
+    > :global(.ant-menu-item) {
+      color: #18191f;
+
+      &:hover {
+        color: #18191f !important;
+        border-bottom-color: #18191f !important;
+      }
     }
   }
 }

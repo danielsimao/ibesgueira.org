@@ -73,6 +73,10 @@ a {
 
   --body-max-width: 1200px;
 
+  /* BLOCK */
+  --block--padding-top: 60px;
+  --block--padding-bottom: 60px;
+
   /* 🎨 COLORS */
   --primary-lighter-color: #448fe4;
   --primary-light-color: #1c6bc4;
