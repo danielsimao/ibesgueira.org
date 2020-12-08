@@ -75,6 +75,7 @@ function Footer(): JSX.Element {
             Quick Links
           </h3>
           <Menu
+            selectedKeys={false}
             className={styles.footer__inner__section__items}
             mode="vertical"
           />

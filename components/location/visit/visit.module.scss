@@ -22,16 +22,37 @@
     }
   }
 
-  &__image {
-    background-image: url('../../../public/assets/location-hero.jpg');
+  &__gallery {
+    width: 500px;
+    height: 350px;
 
-    width: 100%;
-    height: 300px;
+    display: flex;
+    flex-direction: row;
 
-    background-position: 90% 40%;
-    background-size: cover;
+    align-self: center;
 
-    border-radius: 8px;
+    &__col {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      &:first-child,
+      &:last-of-type {
+        display: none;
+      }
+
+      &__picture-frame {
+        width: 100%;
+        height: 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-position: 50% 50%;
+          object-fit: cover;
+        }
+      }
+    }
   }
 }
 
@@ -51,9 +72,17 @@
       }
     }
 
-    &__image {
+    &__gallery {
+      width: 800px;
       height: 400px;
-      background-position: 50% 40%;
+
+      &__col:first-of-type {
+        display: none;
+      }
+
+      &__col:last-of-type {
+        display: flex;
+      }
     }
   }
 }
@@ -74,9 +103,14 @@
       }
     }
 
-    &__image {
-      height: 600px;
-      background-position: 90% 40%;
+    &__gallery {
+      width: 1200px;
+      height: 450px;
+
+      &__col:first-of-type,
+      &__col:last-of-type {
+        display: flex;
+      }
     }
   }
 }

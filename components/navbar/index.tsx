@@ -75,7 +75,7 @@ function Navbar({
           flexDirection: 'column',
         }}
       >
-        <Menu mode="vertical" variant="black" />
+        <Menu selectedKeys={false} mode="vertical" variant="black" />
         <div className={styles['navbar-drawer-menu__follow-us']}>
           Siga-nos:
           <SocialLinks

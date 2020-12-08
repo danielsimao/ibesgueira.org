@@ -8,9 +8,15 @@ interface MenuProps {
   className?: string
   variant?: 'white' | 'black'
   mode: 'horizontal' | 'vertical'
+  selectedKeys?: boolean
 }
 
-function Menu({ className, variant, mode }: MenuProps): JSX.Element {
+function Menu({
+  className,
+  variant,
+  mode,
+  selectedKeys = true,
+}: MenuProps): JSX.Element {
   const router = useRouter()
 
   function handleClick(e) {
@@ -24,7 +30,7 @@ function Menu({ className, variant, mode }: MenuProps): JSX.Element {
         styles[`menu--${mode}`],
         className,
       )}
-      selectedKeys={[router.pathname]}
+      selectedKeys={selectedKeys ? [router.pathname] : undefined}
       onClick={handleClick}
       mode={mode}
     >
