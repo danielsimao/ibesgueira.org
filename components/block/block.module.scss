@@ -1,7 +1,7 @@
 .block {
   width: 100%;
-  padding-top: var(--block--padding-top);
-  padding-bottom: var(--block--padding-bottom);
+  padding-top: var(--block-padding-top);
+  padding-bottom: var(--block-padding-bottom);
 
   &--paddless {
     padding: 0;
@@ -14,8 +14,8 @@
     max-width: 1200px;
     width: 100%;
 
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: var(--block-inner-padding-left);
+    padding-right: var(--block-inner-padding-right);
 
     margin: 0 auto;
 

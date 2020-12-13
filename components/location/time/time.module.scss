@@ -1,0 +1,48 @@
+@import '../styles/local-variables.scss';
+
+.time-container {
+  background-color: #ecf4fc;
+}
+
+.time {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 0;
+  &__picture {
+    max-width: 100%;
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+    margin-bottom: 25px;
+
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  &__unit {
+    padding-left: 25px;
+    padding-right: 15px;
+  }
+}
+
+@include tablet-desktop {
+  .time {
+    flex-direction: row;
+
+    &__picture {
+      width: 60%;
+      margin: 0;
+
+      align-self: center;
+    }
+
+    &__unit {
+      align-self: center;
+    }
+  }
+}

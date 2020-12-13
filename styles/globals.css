@@ -74,8 +74,10 @@ a {
   --body-max-width: 1200px;
 
   /* BLOCK */
-  --block--padding-top: 60px;
-  --block--padding-bottom: 60px;
+  --block-padding-top: 60px;
+  --block-padding-bottom: 60px;
+  --block-inner-padding-left: 40px;
+  --block-inner-padding-right: 40px;
 
   /* 🎨 COLORS */
   --primary-lighter-color: #448fe4;

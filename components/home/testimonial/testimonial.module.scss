@@ -10,8 +10,8 @@
     flex-direction: column;
     justify-content: space-evenly;
 
-    margin-top: calc(var(--block--padding-top) + 20px);
-    margin-bottom: calc(var(--block--padding-bottom) + 20px);
+    margin-top: calc(var(--block-padding-top) + 20px);
+    margin-bottom: calc(var(--block-padding-bottom) + 20px);
 
     &::after {
       content: '';

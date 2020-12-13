@@ -1,8 +1,10 @@
 import { ArrowRightOutlined } from '@ant-design/icons'
+import { useRouter } from 'next/router'
 import styles from './meet-us.module.scss'
 import { Block, Button, Highlight } from '../..'
 
 function MeetUs(): JSX.Element {
+  const router = useRouter()
   return (
     <Block centered>
       <div className={styles['meet-us']}>
@@ -64,6 +66,7 @@ function MeetUs(): JSX.Element {
               type="primary"
               size="large"
               className={styles['meet-us__content__btn']}
+              onClick={() => router.push('/location')}
             >
               Visite-nos <ArrowRightOutlined />
             </Button>
