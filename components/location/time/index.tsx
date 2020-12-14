@@ -19,12 +19,12 @@ function Time(): JSX.Element {
       />
       <div className={styles.time__unit}>
         <h3 className={styles.time__unit__headline}>Horário</h3>
-        <h5 className={styles.time__unit__day}>DOMINGO</h5>
+        <h6 className={styles.time__unit__day}>Domingo</h6>
         <p className={styles.time__unit__schedule}>10.00h - Escola Dominical</p>
         <p className={styles.time__unit__schedule}>
           11.00h - Culto de Pregação
         </p>
-        <h5 className={styles.time__unit__day}>Quinta</h5>
+        <h6 className={styles.time__unit__day}>Quinta</h6>
         <p className={styles.time__unit__schedule}>
           19.00h - Estudo Bíblico e Oração
         </p>

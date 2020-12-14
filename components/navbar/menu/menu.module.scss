@@ -9,7 +9,7 @@
   }
 
   > :global(.ant-menu-item) {
-    color: #ffffff;
+    color: #ffffff !important;
 
     &:hover {
       color: #ffffff !important;
@@ -19,7 +19,8 @@
 
   &--black {
     > :global(.ant-menu-item) {
-      color: #18191f;
+      color: #18191f !important;
+      border-bottom-color: #18191f !important;
 
       &:hover {
         color: #18191f !important;

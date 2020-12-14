@@ -88,14 +88,14 @@ function Footer(): JSX.Element {
                 className={styles.footer__inner__section__icon}
                 component={MessageSvg}
               />
-              <span>hello@ibesgueira.org</span>
+              <span>igrejabaptesgueira@gmail.com</span>
             </li>
             <li>
               <Icon
                 className={styles.footer__inner__section__icon}
                 component={MobileSvg}
               />
-              <span>+351 912 123 123</span>
+              <span>+351 965 363 986</span>
             </li>
             <li>
               <Icon

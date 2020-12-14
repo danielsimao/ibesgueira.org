@@ -27,6 +27,13 @@
   &__unit {
     padding-left: 25px;
     padding-right: 15px;
+    &__day {
+      text-transform: uppercase;
+    }
+
+    &__schedule {
+      @include lead-2;
+    }
   }
 }
 

@@ -6,20 +6,17 @@
 
   width: 100%;
 
-  &__content {
-    display: flex;
-    flex-direction: column;
+  &__headline {
+    text-align: center;
+    color: #18191f;
+  }
 
-    margin-bottom: 48px;
-
-    &__headline {
-      color: #18191f;
-    }
-
-    &__description {
-      @include lead-1;
-      color: #18191f;
-    }
+  &__description {
+    @include lead-1;
+    color: #18191f;
+    margin: 0 auto 30px;
+    max-width: 600px;
+    text-align: center;
   }
 
   &__gallery {

@@ -35,7 +35,7 @@ function Menu({
       mode={mode}
     >
       <MenuItem label="Local & Horas" key="/location" />
-      <MenuItem label="Sobre Nós" key="/about" />
+      {/* <MenuItem label="Sobre Nós" key="/about" /> */}
     </AntMenu>
   )
 }
