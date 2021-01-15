@@ -1,0 +1,31 @@
+@import '../../styles/local-variables.scss';
+
+.home-content {
+  padding-top: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 600px;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+      rgba(16, 114, 255, 0.3);
+    transform: rotate(-180deg);
+    z-index: -1;
+  }
+}
+
+@include tablet {
+  .content {
+    &:after {
+      top: 450px;
+    }
+  }
+}

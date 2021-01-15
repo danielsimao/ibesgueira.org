@@ -34,7 +34,11 @@ function Content({
   )
 }
 function Layout({ children }: { children: React.ReactNode }): JSX.Element {
-  return <div className={styles.layout}>{children}</div>
+  return (
+    <div className="flex flex-auto flex-col min-h-0 relative overflow-hidden">
+      {children}
+    </div>
+  )
 }
 
 export { Layout, Header, Content }

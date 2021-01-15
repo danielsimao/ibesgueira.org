@@ -7,13 +7,7 @@ import {
   Navbar,
   SubFooter,
 } from '../../components'
-import {
-  Feature,
-  Hero,
-  MeetUs,
-  SingleTestimonial,
-  MultipleTestimonial,
-} from '../../components/home'
+import { Hero, TopSection } from '../../components/home'
 import styles from './home.module.scss'
 
 export default function Home(): JSX.Element {
@@ -29,10 +23,13 @@ export default function Home(): JSX.Element {
         </Header>
         <Content className={styles['home-content']}>
           <Hero />
-          <MeetUs />
+          <div className={styles.content}>
+            <TopSection />
+            {/* <MeetUs />
           <SingleTestimonial />
           <MultipleTestimonial />
-          <Feature />
+          <Feature /> */}
+          </div>
         </Content>
         <Footer />
         <SubFooter />

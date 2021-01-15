@@ -7,10 +7,10 @@ function Feature(): JSX.Element {
       <div className={styles.feature}>
         <div className={styles.feature__headline}>
           <h2 className={styles.feature__headline__title}>
-            O Plano da Salvação
+            Temos um plano para ti... O Plano da Salvação
           </h2>
           <p className={styles.feature__headline__description}>
-            Há{' '}
+            Este plano é composto por{' '}
             <Highlight>
               <em>cinco pontos</em>
             </Highlight>{' '}

@@ -1,6 +1,10 @@
 import styles from './testimonial.module.scss'
 import { Block } from '../..'
 
+function MultipleTestimonial(): JSX.Element {
+  return <></>
+}
+
 function SingleTestimonial(): JSX.Element {
   return (
     <Block paddless centered className={styles['s-testimonial']}>
@@ -46,4 +50,4 @@ function SingleTestimonial(): JSX.Element {
   )
 }
 
-export { SingleTestimonial }
+export { SingleTestimonial, MultipleTestimonial }
